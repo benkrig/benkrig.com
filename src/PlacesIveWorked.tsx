@@ -1,5 +1,4 @@
 import * as React from "react";
-import SvgIcon, { SvgIconProps } from "@mui/material/SvgIcon";
 import Typography from "@mui/material/Typography";
 import { Avatar, Card, CardContent, CardHeader, Grid } from "@mui/material";
 
@@ -13,7 +12,7 @@ type Place = {
 
 const listOfPlaces: Place[] = [
   {
-    logo: "https://www.pngfind.com/pngs/m/432-4329153_atlassian-logo-triangle-hd-png-download.png",
+    logo: "images/vertical-logo-gradient-blue-atlassian.png",
     name: "Atlassian",
     description:
       "Initially I worked on Atlassian's internal PaaS, Micros. Currently, I work on a new product at Atlassian called Compass.",
