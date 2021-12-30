@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.395312cd.js",
-    "index.html": "/index.html",
-    "main.395312cd.js.map": "/static/js/main.395312cd.js.map"
+    "main.js": "/benkrig.com/static/js/main.395312cd.js",
+    "index.html": "/benkrig.com/index.html",
+    "main.395312cd.js.map": "/benkrig.com/static/js/main.395312cd.js.map"
   },
   "entrypoints": [
     "static/js/main.395312cd.js"
