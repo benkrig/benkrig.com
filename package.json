@@ -1,6 +1,6 @@
 {
   "name": "www.benkrig.com",
-  "homepage": "http://benkrig.github.io/benkrig.com",
+  "homepage": "http://benkrig.com",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
