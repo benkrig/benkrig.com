@@ -1,25 +1,7 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
 import { Avatar, Card, CardContent, CardHeader, Grid } from "@mui/material";
-
-type Place = {
-  logo: string;
-  name: string;
-  description: string;
-  titles: string[];
-  year: string;
-};
-
-const listOfPlaces: Place[] = [
-  {
-    logo: "images/vertical-logo-gradient-blue-atlassian.png",
-    name: "Atlassian",
-    description:
-      "Initially I worked on Atlassian's internal PaaS, Micros. Currently, I work on a new product at Atlassian called Compass.",
-    titles: ["Software Engineer I", "Software Engineer II"],
-    year: "2020 - Current",
-  },
-];
+import { listOfPlaces } from "./data";
 
 export default function PlacesIveWorked() {
   return (
